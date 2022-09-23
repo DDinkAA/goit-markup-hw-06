@@ -418,6 +418,7 @@ h1 {
 .checkbox-label {
   display: flex;
   padding-left: 37px;
+  cursor: pointer;
 }
 
 .checkbox-input {
@@ -982,17 +983,15 @@ h1 {
 }
 
 .site-nav .current {
-  position: relative;
   display: block;
   color: var(--accent-color);
 }
 
 .item .current::after {
-  position: absolute;
   bottom: -1px;
-  display: block;
   content: "";
-  width: 100%;
+  width: calc(100% + 6px);
+  left: -3px;
   height: 4px;
   background-color: var(--accent-color);
   border-radius: 2px;
