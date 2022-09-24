@@ -27,8 +27,6 @@ body {
   overflow: hidden;
 }
 
-
-
 .link {
   text-decoration: none;
 }
@@ -1734,17 +1732,6 @@ h1 {
   margin-left: 10px;
 }
 
-
-
-
-
-/* * {
-  outline: 1px solid tomato;
-} */
-
-
-
-
 /* Portfolio */
 
 .gallery {
@@ -1877,27 +1864,6 @@ h1 {
   padding: 20px 24px;
 }
 
-/* .icon {
-  fill: var(--icons-color);
-} */
-
-/* .icon:hover,
-.icon:focus {
-  fill: var(--accent-color);
-} */
-
-  height: 50px;
-
-  color: rgba(255, 255, 255, 0.6);
-
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  box-shadow: drop-shadow (0px 4px 4px rgba(0, 0, 0, 0.15));
-
-  padding-left: 16px;
-}
-
 .subscription-formlabel {
   position: absolute;
   top: 0;
@@ -1915,7 +1881,6 @@ h1 {
 .subscription-forminput:focus + .subscription-formlabel {
   opacity: 0;
 }
-
 
 .subscription-button {
   display: flex;
@@ -1951,16 +1916,6 @@ h1 {
 .icon-send {
   margin-left: 10px;
 }
-
-
-
-
-
-/* * {
-  outline: 1px solid tomato;
-} */
-
-
 
 
 /* Portfolio */
@@ -2070,16 +2025,6 @@ h1 {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-
-/* .card-item:hover .cardhover-text {
-  transform: translate(0);
-}
-
-.card-item:hover,
-.card-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-} */
 
 .card-text {
   color: var(--primary-text-color);
